@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@RestController
+
 @SpringBootApplication
 public class PracticeApplication {
 
@@ -16,9 +16,5 @@ public class PracticeApplication {
 	}
 
 
-	@RequestMapping("/")
-	public String helloPeople(){
-		return "Hello, People! Welcome to Spring boot world. Spring boot is nothing but Spring on steroids";
-	}
 
 }
